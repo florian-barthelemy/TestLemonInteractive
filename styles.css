@@ -10,16 +10,17 @@
 .navbar {
     min-height : 116px;
     display : flex;
-    justify-content : space-between;
+    justify-content: space-between;
     align-items : center;
-    padding : 0 119px;
+    padding : 0 11.22vw;
+    gap : 0.1953vw;
 }
 
 .nav-menu {
     display :  flex;
     justify-content : space-between;
     align-items : center;
-    gap : 24px;
+    gap : 2.34vw;
 }
 
 .nav-brand{
@@ -64,6 +65,16 @@ a {
     height: 24px;
 }
 
+.icon-responsive {
+    display: none;
+}
+
+.icon-search {
+    display: flex;
+    justify-self: right;
+    margin-right: 0;
+}
+
 
 .text-green {
     color : #96c67f;
@@ -77,3 +88,84 @@ a {
     font-weight : bold;
 }
 
+.input-container{
+    display: none;
+}
+
+
+@media(max-width : 850px){
+    .icon-responsive {
+        display: block;
+    }
+
+    .nav-menu,.nav-btn {
+        display: none;
+    }
+
+    .navbar.active .nav-menu {
+        width: 100%;
+        display: block;
+        order: 2;
+    }
+
+    .navbar.active .nav-menu li{
+        margin-bottom: 2.27vh;
+    }
+
+    .navbar.active .icon-responsive{
+        display: none;
+    }
+
+    .navbar.active .nav-brand{
+        display: none;
+    }
+
+
+    .navbar.active .nav-btn{
+        display: block;
+        order: 3;
+    }
+
+    .navbar.active{
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        font-size: x-large;
+    }
+
+    .navbar.active .icon-search{
+        display: none;
+    }
+
+    .navbar.active .input-container {
+        display: block;
+        position: relative;
+        width: 100%; 
+        margin: 20px;
+        order: 1;
+        margin-bottom: 6vh;
+    }
+    
+    .navbar.active input {
+        width: calc(100% - 30px); 
+        padding: 10px;
+        border: none;
+        background-color: #f8f8f8; 
+        border-radius: 5px;
+    }
+    
+    .navbar.active .icon-search-responsive{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 20px; 
+        cursor: pointer;
+    }
+
+    .navbar.active .nav-btn button {
+        font-size: x-large;
+        margin-bottom: 2.27vh;
+    }
+    
+}
