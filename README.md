@@ -12,3 +12,4 @@ choix de conception pour la rubrique news :
 Récupération des différentes photos sur la maquette Figma.
 Réduction de la taille des images pour que cela ne paraisse pas trop grand.
 Utilisation de position absolu et relative pour gérer l'emplacement des différentes images.
+Pour le côté responsive, au lieu d'afficher les éléments en colone, je les affiches en ligne.

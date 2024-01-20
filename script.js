@@ -3,12 +3,14 @@ const iconSearchResponsive = document.querySelector(".icon-search-responsive");
 const navbar = document.querySelector(".navbar");
 const navButtons =  document.querySelectorAll(".nav-btn button");
 const navLinks = document.querySelectorAll(".nav-link");
+const news = document.querySelector(".news");
 
 /**
  * permet d'afficher sur mobile le contenu du menu burger quand on clique sur ce dernier
  */
 hamburger.addEventListener("click" , ()=>{
     navbar.classList.toggle("active");
+    news.style.display = "none";
 });
 
 /**
@@ -16,6 +18,7 @@ hamburger.addEventListener("click" , ()=>{
  */
 iconSearchResponsive.addEventListener("click",()=>{
     navbar.classList.remove("active");
+    news.style.display = "block";
 });
 
 /**
@@ -24,6 +27,7 @@ iconSearchResponsive.addEventListener("click",()=>{
 navButtons.forEach(navButton =>{
     navButton.addEventListener("click",()=>{
         navbar.classList.remove("active");
+        news.style.display = "block";
     });
 });
 
@@ -34,5 +38,7 @@ navButtons.forEach(navButton =>{
 navLinks.forEach(navLink =>{
     navLink.addEventListener("click",()=>{
         navbar.classList.remove("active");
+        news.style.display = "block";
     });
 });
+

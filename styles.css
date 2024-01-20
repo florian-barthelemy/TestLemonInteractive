@@ -155,6 +155,7 @@ a {
 
 /*pour le mobile*/
 @media(max-width : 850px){
+    /*navbar*/
     .icon-responsive {
         display: block;
     }
@@ -162,6 +163,8 @@ a {
     .nav-menu,.nav-btn {
         display: none;
     }
+
+    /*quand on affiche le contenu du menu burger*/
 
     .navbar.active .nav-menu {
         width: 100%;
@@ -227,6 +230,39 @@ a {
     .navbar.active .nav-btn button {
         font-size: x-large;
         margin-bottom: 2.27vh;
+    }
+
+    /*rubrique news*/
+    .outer-container{
+        display: block;
+        background-color: #f8f8f8;
+    }
+    
+    .news-container{
+        color: black;
+        position: unset;
+    }
+
+    .inner-container{
+        flex-direction: column;
+        align-items: start;
+        top: 93px;
+        margin-left: 16px;
+        height: 100px;
+    }
+
+    .right-container{
+        left: 33%;
+    }
+
+    .image-wrapper-second{
+        bottom:7rem;
+        right: 8rem;
+    }
+    
+    .image-wrapper-first {
+        left: -8rem;
+        bottom: 10rem;
     }
     
 }
