@@ -18,3 +18,4 @@ choix de conception pour les multicards :
 Récupération des différentes photos, tailles sur la maquette Figma.
 Utilisation de position absolu et relative pour gérer l'emplacement des différentes images.
 Utilisation de flexbox pour aligner les 4 cartes et les disposer.
+Pour le responsive j'ai gardé la même taille de carte mais j'ai mis un scrolling pour ne pas dépasser de l'écran.

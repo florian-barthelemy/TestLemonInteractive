@@ -323,5 +323,20 @@ a {
         left: -8rem;
         bottom: 10rem;
     }
+
+    /*multicards*/
+    .multicards .card:nth-child(even){
+        align-self: start;
+    }
+
+    .multicards{
+        margin-top: 250px;
+        overflow-x: scroll;
+    }
+
+    .multicards .card {
+        min-height: 257px;
+        min-width: 303px;
+    }
     
 }

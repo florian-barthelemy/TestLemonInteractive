@@ -4,6 +4,7 @@ const navbar = document.querySelector(".navbar");
 const navButtons =  document.querySelectorAll(".nav-btn button");
 const navLinks = document.querySelectorAll(".nav-link");
 const news = document.querySelector(".news");
+const multicards = document.querySelector(".multicards");
 
 /**
  * permet d'afficher sur mobile le contenu du menu burger quand on clique sur ce dernier
@@ -11,6 +12,7 @@ const news = document.querySelector(".news");
 hamburger.addEventListener("click" , ()=>{
     navbar.classList.toggle("active");
     news.style.display = "none";
+    multicards.style.display = "none";
 });
 
 /**
@@ -19,6 +21,7 @@ hamburger.addEventListener("click" , ()=>{
 iconSearchResponsive.addEventListener("click",()=>{
     navbar.classList.remove("active");
     news.style.display = "block";
+    multicards.style.display = "flex";
 });
 
 /**
@@ -28,6 +31,7 @@ navButtons.forEach(navButton =>{
     navButton.addEventListener("click",()=>{
         navbar.classList.remove("active");
         news.style.display = "block";
+        multicards.style.display = "flex";
     });
 });
 
@@ -39,6 +43,7 @@ navLinks.forEach(navLink =>{
     navLink.addEventListener("click",()=>{
         navbar.classList.remove("active");
         news.style.display = "block";
+        multicards.style.display = "flex";
     });
 });
 
