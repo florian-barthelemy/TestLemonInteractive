@@ -18,9 +18,14 @@ Choix de conception pour les multicards :
 Récupération des différentes photos, tailles sur la maquette Figma.
 Utilisation de position absolu et relative pour gérer l'emplacement des différentes images.
 Utilisation de flexbox pour aligner les 4 cartes et les disposer.
-Pour le responsive j'ai gardé la même taille de carte mais j'ai mis un scrolling pour ne pas dépasser de l'écran.
+Pour le responsive, j'ai gardé la même taille de carte mais j'ai mis un scrolling pour ne pas dépasser de l'écran.
 
 Choix de conception pour la rubrique avec fond vert :
 Récupération des différentes photos, tailles sur la maquette Figma.
 Utilisation de position absolu et relative pour gérer l'emplacement des différentes images.
-Pour le responsive j'ai changé la taille du fond vert ainsi que les images et je suis passé sur un alignement en colone.
+Pour le responsive, j'ai changé la taille du fond vert ainsi que les images et je suis passé sur un alignement en colone.
+
+Choix de conception pour la partie témoignage d'étudiants.
+Récupération des différentes photos, tailles sur la maquette Figma.
+Utilisation des flexbox pour aligner les éléments.
+Pour le responsive, changement de taille des images et des alignements.

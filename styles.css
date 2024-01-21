@@ -270,6 +270,95 @@ a {
 
 }
 
+/*partie témoignage étudiants*/
+
+.students {
+    display: flex;
+    align-items: center;
+}
+
+.students .testimony {
+    padding: 20px;
+}
+
+.students .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.students .title h2 {
+    margin-bottom: 10px;
+}
+
+.students .highlight {
+    color: #96c67f;
+    text-decoration: underline;
+}
+
+.students .buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.students .arrow-btn {
+    background-color: #fff;
+    /* Fond blanc */
+    color: #96c67f;
+    /* Texte vert */
+    padding: 10px 15px;
+    border: solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 48px;
+}
+
+.students .card {
+    margin: 0 20px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    padding: 48px;
+}
+
+.students .card-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.students .cards {
+    display: flex;
+    justify-content: center;
+}
+
+.students .card img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.students .info {
+    padding: 20px;
+}
+
+.students h3 {
+    color: #333;
+    margin: 0;
+}
+
+.students p {
+    color: #666;
+}
+
+.students .text-green {
+    color: #96c67f;
+}
+
+.students h4 {
+    margin: 0;
+}
+
+
 /*pour le mobile*/
 @media(max-width : 850px) {
 
@@ -435,4 +524,30 @@ a {
         margin-bottom: 12px;
     }
 
+    /*partie témoignage étudiants*/
+    .students {
+        flex-direction: column;
+    }
+
+    .students .testimony {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        min-width: calc(100% - 20px);
+    }
+
+    .students .arrow-btn {
+        max-width: 35px;
+        max-height: 35px;
+        margin-right: 28px;
+    }
+
+    .students .card img {
+        max-width: 28px;
+        height: 28px;
+    }
+
+    .students .card {
+        padding: 0;
+    }
 }
