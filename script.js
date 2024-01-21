@@ -7,6 +7,7 @@ const news = document.querySelector(".news");
 const multicards = document.querySelector(".multicards");
 const greenBackgroundContainer = document.querySelector(".green-background-container");
 const students = document.querySelector(".students");
+const footer = document.querySelector("footer");
 
 /**
  * permet d'afficher sur mobile le contenu du menu burger quand on clique sur ce dernier
@@ -17,6 +18,7 @@ hamburger.addEventListener("click", () => {
     multicards.style.display = "none";
     greenBackgroundContainer.style.display = "none";
     students.style.display = "none";
+    footer.style.display = "none";
 });
 
 /**
@@ -28,6 +30,7 @@ iconSearchResponsive.addEventListener("click", () => {
     multicards.style.display = "flex";
     greenBackgroundContainer.style.display = "flex";
     students.style.display = "flex";
+    footer.style.display = "block";
 });
 
 /**
@@ -40,6 +43,7 @@ navButtons.forEach(navButton => {
         multicards.style.display = "flex";
         greenBackgroundContainer.style.display = "flex";
         students.style.display = "flex";
+        footer.style.display = "block";
     });
 });
 
@@ -54,6 +58,7 @@ navLinks.forEach(navLink => {
         multicards.style.display = "flex";
         greenBackgroundContainer.style.display = "flex";
         students.style.display = "flex";
+        footer.style.display = "block";
     });
 });
 

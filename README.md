@@ -33,3 +33,5 @@ Pour le responsive, changement de taille des images et des alignements.
 Choix de conception pour le footer.
 Récupération des différentes icones, tailles sur la maquette Figma.
 Utilisation des flexbox pour aligner les éléments.
+Pour le côté responsive, ajout d'une classe qui permet de cacher le paragraphe concerné.
+Ajout d'une div qui permet de passer en flexbox colonne qui permet de changer l'ordre d'affichage des éléments avec order et column-reverse dans les éléments.
