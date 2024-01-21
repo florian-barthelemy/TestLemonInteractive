@@ -153,6 +153,65 @@ a {
     max-width: 50%;
 }
 
+/*css multicards*/
+.multicards .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+    display: inline;
+    width: 303px;
+    height: 257px;
+}
+.multicards .icon-wrapper {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15%;
+    left: 15%;
+    
+}
+
+.multicards .icon-wrapper img {
+    width: 48px;
+    height: 48px;
+}
+
+.multicards .content {
+    padding: 20px;
+}
+
+.multicards .card h2 {
+    margin-top: 25px;
+}
+
+.multicards {
+    display: flex;
+    height: 413px;
+    margin-top: 100px;
+}
+
+.multicards .card:nth-child(even){
+    display: flex;
+    align-self: flex-end;
+    background-color: #96c67f;
+}
+
+.multicards .card:nth-child(even) .icon-wrapper{
+    background-color: #f8f8f8;
+}
+
+.multicards .card:nth-child(odd) .icon-wrapper{
+    background-color: #96c67f;
+}
+
 /*pour le mobile*/
 @media(max-width : 850px){
     /*navbar*/
