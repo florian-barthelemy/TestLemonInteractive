@@ -29,3 +29,7 @@ Choix de conception pour la partie témoignage d'étudiants.
 Récupération des différentes photos, tailles sur la maquette Figma.
 Utilisation des flexbox pour aligner les éléments.
 Pour le responsive, changement de taille des images et des alignements.
+
+Choix de conception pour le footer.
+Récupération des différentes icones, tailles sur la maquette Figma.
+Utilisation des flexbox pour aligner les éléments.

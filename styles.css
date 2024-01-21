@@ -358,6 +358,62 @@ a {
     margin: 0;
 }
 
+/*footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 88px 121px;
+}
+
+footer .flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .sections {
+    display: flex;
+    gap: 8px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 138px;
+}
+
+footer .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .input-container {
+    display: flex;
+}
+
+footer input {
+    padding: 10px;
+    width: 437.57px;
+}
+
+footer input::placeholder {
+    color: #96c67f;
+}
+
+footer button {
+    padding: 10px;
+    background-color: #96c67f;
+    /* Fond vert du bouton */
+    color: #fff;
+    /* Texte blanc du bouton */
+    border: none;
+    cursor: pointer;
+}
+
 
 /*pour le mobile*/
 @media(max-width : 850px) {
